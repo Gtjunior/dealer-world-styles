@@ -1,0 +1,73 @@
+:root {
+    --chrysler-primary: #3669ad;
+    --chrysler-hover: #5e87bd;
+}
+
+.vrp * {
+    box-sizing: border-box;
+}
+
+.vrp h1,
+.vrp h2,
+.vrp h3,
+.vrp h4,
+.vrp h5,
+.vrp h6 {
+    text-transform: uppercase;
+}
+
+.vrp {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    max-width: 75rem;
+    margin: 1.25rem auto;
+    padding: 1.25rem;
+}
+
+.vrp img {
+    max-width: 100%;
+}
+
+.vrp-intro {
+    display: grid;
+    grid-template-columns: 12fr;
+    gap: 1.25rem;
+    align-items: center;
+}
+
+.vrp-features div {
+    margin-top: 0.625rem;
+}
+
+.vrp-features .feature {
+    display: grid;
+    grid-template-columns: 12fr;
+    gap: 1.25rem;
+    align-items: center;
+}
+
+.primary-cta {
+    background-color: var(--chrysler-primary);
+    display: inline-block;
+    color: white;
+    padding: 0.625rem 1.25rem;
+    margin-top: 0.625rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    transition: 0.3s;
+}
+
+.primary-cta:hover {
+    background-color: var(--chrysler-hover);
+}
+
+@media screen and (min-width: 1200px) {
+    .vrp-intro {
+        grid-template-columns: 6fr 6fr;
+    }
+
+    .vrp-features .feature {
+        grid-template-columns: 4fr 8fr;
+    }
+}
