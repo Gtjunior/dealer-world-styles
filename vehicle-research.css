@@ -50,7 +50,7 @@
 .primary-cta {
     background-color: var(--chrysler-primary);
     display: inline-block;
-    color: white;
+    color: white !important;
     padding: 0.625rem 1.25rem;
     margin-top: 0.625rem;
     text-decoration: none;
