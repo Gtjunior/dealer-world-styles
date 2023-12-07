@@ -7,10 +7,6 @@
     box-sizing: border-box;
 }
 
-.vrp img {
-    margin: 0 auto;
-}
-
 .vrp h1,
 .vrp h2,
 .vrp h3,
@@ -31,6 +27,7 @@
 
 .vrp img {
     max-width: 100%;
+    width: 100%;
     margin: 0 auto;
 }
 
