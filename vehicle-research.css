@@ -21,8 +21,8 @@
     grid-template-columns: 1fr;
     gap: 1.25rem;
     max-width: 100rem;
-    margin: 1.25rem auto;
-    padding: 1.25rem;
+    margin: 0 auto;
+    padding: 0 1.25rem;
 }
 
 .vrp img {
