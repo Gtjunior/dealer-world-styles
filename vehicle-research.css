@@ -38,6 +38,10 @@
     align-items: center;
 }
 
+.vrp-intro-copy h1 {
+    font-size: 2rem !important;
+}
+
 .vrp-features div {
     margin-top: 0.625rem;
 }
