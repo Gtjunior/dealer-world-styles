@@ -59,7 +59,7 @@
     color: white !important;
     padding: 0.625rem 1.25rem;
     margin-top: 0.625rem;
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: 18px;
     transition: 0.3s;
 }
