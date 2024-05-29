@@ -1,0 +1,24 @@
+.seo__content .row {
+    margin: 10px 0;
+}
+.align-center {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content {
+    padding: 0;
+}
+.title {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/title-background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+.title h1 {
+    font-size: 2.75rem;
+}
+.best__info {
+    background-color: #ededed;
+}
